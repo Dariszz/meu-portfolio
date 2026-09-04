@@ -1,0 +1,5 @@
+import { SectionLabel } from '@/components/ui/SectionLabel';
+import { experiences } from '@/data/portfolio';
+export function ExperienceSection() {
+  return <section className="section experience-section" id="experiencia"><div className="shell"><SectionLabel number="02">Experiência em escala</SectionLabel><div className="section-intro light"><h2>Produtos reais.<br /><em>Desafios reais.</em></h2><p>Desde 2022, participo da construção e evolução de aplicações utilizadas por milhares de pessoas.</p></div><div className="experience-list">{experiences.map((item, index) => <article className="experience-row" key={item.company}><span className="experience-number">0{index + 1}</span><div><h3>{item.company}</h3><small>{item.period}</small></div><p>{item.summary}</p><ul>{item.details.map((detail) => <li key={detail}>{detail}</li>)}</ul></article>)}</div><p className="confidential-note">Os trabalhos corporativos são apresentados sem dados, telas ou informações confidenciais.</p></div></section>;
+}

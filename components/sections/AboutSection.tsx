@@ -1,0 +1,5 @@
+import { SectionLabel } from '@/components/ui/SectionLabel';
+import { skills } from '@/data/portfolio';
+export function AboutSection() {
+  return <section className="section shell" id="sobre"><SectionLabel number="03">Como eu construo</SectionLabel><div className="about-grid"><h2>Interfaces são o começo.<br /><em>O produto é o todo.</em></h2><div className="about-copy"><p>Minha especialidade é Front-end, mas meu olhar atravessa a aplicação inteira: negócio, experiência, arquitetura, integração, testes e evolução.</p><p>Busco escrever software que outras pessoas consigam entender, manter e transformar — com responsabilidade técnica e atenção genuína a quem usa.</p></div></div><div className="skills-grid">{skills.map((skill) => <article key={skill.number}><span>{skill.number}</span><h3>{skill.title}</h3><p>{skill.copy}</p><small>{skill.stack}</small></article>)}</div><div className="learning-note"><span>Também no repertório</span><p>Java e Python — estudos acadêmicos e projetos pessoais.</p></div></section>;
+}

@@ -1,0 +1,4 @@
+import { ArrowDownRight } from 'lucide-react';
+export function HeroSection() {
+  return <section className="hero shell" id="inicio"><div className="hero-status"><span /> Disponível para novos projetos</div><h1>Do componente<span className="hero-line">à <em>experiência.</em></span><span className="hero-line indent">Da API ao <em>produto.</em></span></h1><div className="hero-bottom"><p>Sou <strong>Pedro Paulo Daris</strong>, desenvolvedor Front-end com experiência em produtos de grande escala e atuação Full Stack com Node.js e NestJS.</p><a className="circle-link" href="#projetos" aria-label="Conhecer projetos"><ArrowDownRight aria-hidden="true" /></a></div><div className="hero-marquee" aria-label="Principais tecnologias"><span>React</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Vue.js</span><i>✦</i><span>NestJS</span><i>✦</i><span>Acessibilidade</span></div></section>;
+}
