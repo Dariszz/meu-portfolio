@@ -1,5 +1,5 @@
 type ProjectVisualProps = { theme: 'visa' | 'architecture'; title: string };
 export function ProjectVisual({ theme, title }: ProjectVisualProps) {
-  if (theme === 'architecture') return <div className="project-visual architecture-visual"><img src="/projects/seu-sonho-em-linhas/casa-conceito-hero.png" alt="Visualização arquitetônica usada no projeto Seu Sonho em Linhas" /><span className="image-caption">Arquitetura que começa em você.</span></div>;
+  if (theme === 'architecture') return <div className="project-visual architecture-visual"><img src="/projects/seu-sonho-em-linhas/preview.gif" alt={`Demonstração navegável do projeto ${title}`} /></div>;
   return <div className="project-visual visa-visual" aria-label={`Prévia conceitual de ${title}`}><div className="visa-window"><div className="window-bar"><span /><span /><span /></div><div className="visa-content"><div className="visa-copy"><small>SEU PRÓXIMO DESTINO</small><strong>Planeje sua mudança<br />com confiança.</strong><span className="fake-button">Começar checklist →</span></div><div className="passport-card"><span className="globe">◎</span><small>DESTINO</small><strong>Portugal</strong><div className="progress"><i /></div><p>Documentos verificados</p></div></div></div></div>;
 }
