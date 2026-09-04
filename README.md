@@ -6,9 +6,9 @@
 
 Portfólio profissional criado para apresentar minha trajetória, minhas competências e a forma como transformo problemas em produtos digitais completos.
 
-[![React](https://img.shields.io/badge/React-19-151512?style=for-the-badge&logo=react&logoColor=C7FF41)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-151512?style=for-the-badge&logo=typescript&logoColor=C7FF41)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-8-151512?style=for-the-badge&logo=vite&logoColor=C7FF41)](https://vite.dev/)
+[![React](https://img.shields.io/badge/React-19-151512?style=for-the-badge&logo=react&logoColor=4D7CFE)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-151512?style=for-the-badge&logo=typescript&logoColor=4D7CFE)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-8-151512?style=for-the-badge&logo=vite&logoColor=4D7CFE)](https://vite.dev/)
 
 [Projetos](#-projetos-em-destaque) · [Tecnologias](#-tecnologias) · [Como executar](#-como-executar) · [Estrutura](#-estrutura-do-projeto)
 
@@ -121,7 +121,7 @@ A identidade combina uma base editorial clara com cores de alto contraste:
 
 - **Ink:** `#151512`
 - **Paper:** `#F2F0E9`
-- **Acid:** `#C7FF41`
+- **Brand blue:** `#2458D6`
 - **Violet:** `#6D5DFC`
 
 A tipografia expressiva, os grandes espaços e as mudanças de contraste ajudam a separar narrativa, projetos, experiência e contato sem depender de excesso de elementos decorativos.
